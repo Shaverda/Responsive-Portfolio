@@ -56,7 +56,7 @@ h3 {
 	width: 100%;
 }
 #logo {
-	width: 250px;
+	width: 260px;
 	height: 90px;
 	background: #4aaaa5;
 	float: left;
@@ -67,6 +67,7 @@ h3 {
 	font-weight: 700;
 	font-size: 30px;
 	text-decoration: none;
+	padding: 0px 5px;
 }
 nav {
 	float: right;
@@ -226,6 +227,7 @@ input[type=submit] {
 	}
 	#main-container {
 		margin-left: 30px;
+		max-width: 550px;
 	}
 	.work-section {  
 		max-width: 450px;
@@ -235,9 +237,12 @@ input[type=submit] {
 		margin-right: auto;
 	}
 
-	.responsive-portfolio-sidebar {
+	.responsive-portfolio-sidebar  {
 		float: left;
 		margin-left: 50px;
+	}
+	.responsive-image-sidebar {
+		float: left;
 	}
 }
 
