@@ -222,10 +222,22 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 	#logo {
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 	#main-container {
 		margin-left: 30px;
+	}
+	.work-section {  
+		max-width: 450px;
+	}
+	.work {	 /* WHY WON'T THESE IMAGES CENTER NO MATTER WHAT I DO? */
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.responsive-portfolio-sidebar {
+		float: left;
+		margin-left: 50px;
 	}
 }
 
@@ -238,6 +250,9 @@ input[type=submit] {
 	}
 	#main-container {
 		margin: 0px 30px 30px 30px;
+	}
+	.work-section {  
+		max-width: 650px;
 	}
 
 }
@@ -263,6 +278,7 @@ input[type=submit] {
 	}
 	#logo {
 		width: 100%;
+		margin-left: 0px;
 	}
 	nav {
 		float: left;
@@ -271,6 +287,17 @@ input[type=submit] {
 		display:inline;
 		padding: 0px 65px;
 	}
+
+	.work-section {  
+		max-width: 650px;
+	}
+
+	.work img {
+		overflow: visible;
+		width: 125%;
+		height: 125%;
+	}
+
 }
 
 
