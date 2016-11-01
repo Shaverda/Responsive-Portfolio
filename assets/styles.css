@@ -223,27 +223,34 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 	#logo {
-		margin-left: 30px;
+		margin-left: 20px;
 	}
-	#main-container {
-		margin-left: 30px;
+	/* #main-container {
+		margin-left: 20px;
 		max-width: 550px;
-	}
+
+	}*/
 	.work-section {  
 		max-width: 450px;
 	}
+
 	.work {	 /* WHY WON'T THESE IMAGES CENTER NO MATTER WHAT I DO? */
 		margin-left: auto;
 		margin-right: auto;
-	}
+	} 
 
-	.responsive-portfolio-sidebar  {
+/	.responsive-portfolio-sidebar  {
 		float: left;
 		margin-left: 50px;
 	}
 	.responsive-image-sidebar {
 		float: left;
 	}
+	.sidebar {
+		float: left;
+		margin-left: 30px;
+	}
+
 }
 
 @media screen and (max-width: 768px) and (min-width: 641px) {
@@ -297,10 +304,14 @@ input[type=submit] {
 		max-width: 650px;
 	}
 
+	.work {
+		width: 500px;
+	}
+
 	.work img {
 		overflow: visible;
-		width: 125%;
-		height: 125%;
+		width: 100%;
+		height: 100%;
 	}
 
 }
